@@ -14,6 +14,7 @@ import race from "./race";
 import weapon from "./weapon";
 import hitPattern from "./hitPattern";
 import skill from "./skill";
+import siteSettings from "./siteSettings";
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -31,6 +32,7 @@ export default createSchema({
     hitPattern,
     skill,
     _class,
+    siteSettings,
     // When added to this list, object types can be used as
     // { type: 'typename' } in other document schemas
     character,
